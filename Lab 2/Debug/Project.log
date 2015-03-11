@@ -1,0 +1,16 @@
+﻿Build started 3/11/2015 2:44:49 PM.
+     1>Project "W:\CSC 360\Lab 2\Project.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling main.asm...
+         cmd.exe /C "C:\Users\george_gilleland\AppData\Local\Temp\tmpe57165584d8d4946a3ca595b8362aa63.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\main.obj" /I "W:\Irvine" /W3 /errorReport:prompt  /Tamain.asm
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"W:\CSC 360\Lab 2\Debug\Project.exe" /NOLOGO /LIBPATH:W:\Irvine user32.lib irvine32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"W:\CSC 360\Lab 2\Debug\Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"W:\CSC 360\Lab 2\Debug\Project.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+     1>main.obj : error LNK2026: module unsafe for SAFESEH image.
+     1>irvine32.lib(Irvine32.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>W:\CSC 360\Lab 2\Debug\Project.exe : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "W:\CSC 360\Lab 2\Project.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.29
